@@ -1,0 +1,25 @@
+﻿[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phoenix-swarm-omega"
+version = "0.1.0"
+description = "Omega meta-swarm: Researcher -> DevilAdvocate -> SolutionFinder"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.dependencies]
+pymysql = "*"
+cryptography = "*"
+boto3 = "*"
+requests = "*"
+python-dotenv = "*"
+duckduckgo-search = "*"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agents*", "core*", "config*", "memory*"]

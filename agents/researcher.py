@@ -24,6 +24,6 @@ class Researcher:
             except Exception as e:
                 logger.warning(f"Web search falhou ({e}); usando fallback offline")
                 if FALLBACK.exists():
-                    for o in json.loads(FALLBACK.read_text(encoding="utf-8")):
+                    for o in json.loads(FALLBACK.read_text(encoding="utf-8-sig")):
                         results.append({"source": "offline", "query": q, **o})
         return results[:12]
