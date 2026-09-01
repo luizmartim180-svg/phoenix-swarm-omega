@@ -1,0 +1,12 @@
+﻿[
+  {"id":"obj-001","text":"TiDB vector search é menos maduro que Pinecone"},
+  {"id":"obj-002","text":"Serverless tem cold start e custo imprevisível"},
+  {"id":"obj-003","text":"Branching copia dados? qual o custo?"},
+  {"id":"obj-004","text":"Por que não pgvector + Postgres?"},
+  {"id":"obj-005","text":"MySQL compatibility tem gaps"},
+  {"id":"obj-006","text":"Bedrock tem throttling de quota"},
+  {"id":"obj-007","text":"HTAP sacrifica performance OLTP"},
+  {"id":"obj-008","text":"Lock-in em TiDB Cloud"},
+  {"id":"obj-009","text":"Agentes autônomos são hype sem ROI"},
+  {"id":"obj-010","text":"S3 como backbone aumenta latência de leitura"}
+]
